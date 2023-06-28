@@ -1,5 +1,5 @@
 
-// Leetcode Question 7
+// Leetcode Question 9
 //   Here is the link to the question https://leetcode.com/problems/palindrome-number/
 
 class Solution {
