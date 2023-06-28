@@ -45,7 +45,7 @@ public class Patterns{
         while(row <= n){                                            // *
             int col = 1;                                            // *  * 
             while(col <= row){                                      // *  *  *
-                System.out.print("* ");                           // *  *  *  *  
+                System.out.print("* ");                             // *  *  *  *  
                 col++;
             }
             System.out.println();
@@ -126,7 +126,7 @@ public class Patterns{
             if(row<=n){    
                 int col = 1;
                 while(col<=row){
-                    System.out.print("* ");                         // *                      
+                    System.out.print("* ");                           // *                      
                     col++;                                            // *  *  
                 }                                                     // *  *  *  
                 System.out.println();                                 // *  *  *  *  
@@ -151,7 +151,7 @@ public class Patterns{
             int totalCols = row>n ? 2*n-row : row;                      // *  * 
                                                                         // *  *  *
             for(int col=1; col<=totalCols; col++){                      // *  *  *  *
-                System.out.print("* ");                               // *  *  *  
+                System.out.print("* ");                                 // *  *  *  
             }                                                           // *  *
             System.out.println();                                       // *    
         }
@@ -168,7 +168,7 @@ public class Patterns{
             int breaks = n - totalCols;                                 //  *  *  * 
                                                                         // *  *  *  *
             for(int space=0; space<breaks; space++){                    //  *  *  *
-                System.out.print(" ");                                //   *  *  
+                System.out.print(" ");                                  //   *  *  
             }                                                           //     *    
             for(col=1; col<=totalCols; col++){
                 System.out.print("* ");
@@ -187,7 +187,7 @@ public class Patterns{
         for(row=1; row<=n; row++){
             int spaces = n - row;
             for(int space=1; space<=spaces; space++){                   //    1
-                System.out.print(" ");                                //   121  
+                System.out.print(" ");                                  //   121  
             }                                                           //  12321
             for(col=1; col<=row; col++){                                // 1234321
                 System.out.print(col);                                  //123454321
@@ -209,7 +209,7 @@ public class Patterns{
             int spaces = n - row;
 
             for(int space=0; space<=spaces; space++){                   //    1
-                System.out.print(" ");                                //   212  
+                System.out.print(" ");                                  //   212  
             }                                                           //  32123
                                                                         // 4321234
             for(col=row; col>=1; col--){                                //543212345
