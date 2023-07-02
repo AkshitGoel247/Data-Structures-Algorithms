@@ -1,5 +1,5 @@
 
-// Coding Ninjas problem - Find Uniquw
+// Coding Ninjas problem - Find Unique
 //   Link to the problem - https://www.codingninjas.com/studio/problems/find-unique_625159?
 
 public class Solution{  
